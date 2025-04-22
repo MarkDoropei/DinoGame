@@ -1,0 +1,61 @@
+.game{
+    width:600px;
+    height:200px;
+    border-bottom: solid 1px black;
+    margin: auto;
+}
+
+#dino{
+    height:50px;
+    width:50px;
+    background-image: url(images/dinosaur-game-logo-png_seeklogo-473669.png);
+    background-size: 50px 50px;
+    position: relative;
+    top:150px;
+}
+
+#cactus{
+    width:20px;
+    height:35px;
+    background-image: url(images/xMf9sx.png);
+    background-size: 20px 40px;
+    position:relative ;
+    top:115px;
+    left:580px;
+    animation: cactusMov 1s infinite linear;
+}
+@keyframes cactusMov {
+    0%{
+        left:580px;
+    }
+    100%{
+        left:-20px;
+    }
+}
+
+.jump{
+    animation: jump 0.75s linear;
+}
+
+@keyframes jump {
+    0%   {top:150px;}
+    1%   {top:149px;}
+    2%   {top:148px;}
+    3%   {top:146px;}
+    4%   {top:144px;}
+    5%   {top:141px;}
+    6%   {top:138px;}
+    7%   {top:134px;}
+    8%   {top:130px;}
+    9%   {top:125px;}
+    10%   {top:120px;}
+    11%   {top:114px;}
+    12%   {top:108px;}
+    13%   {top:102px;}
+    14%   {top:95px;}
+    15%   {top:89px;}
+    16%   {top:82px;}
+    17%   {top:75px;}
+    18%	{top :69 px;}	
+	20%	{top :56 px;}		
+ }
